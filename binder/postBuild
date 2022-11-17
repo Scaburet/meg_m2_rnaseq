@@ -1,3 +1,5 @@
+python -m bash_kernel.install --sys-prefix
+
 # Install R package
 # if not available as conda package
 R -e "install.packages('diagram', repos='http://cran.rstudio.com/')"
